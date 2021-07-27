@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(vicon_bridge)
 
+set(DISABLE_PAL_FLAGS TRUE)
 find_package(catkin REQUIRED COMPONENTS
     message_generation
     dynamic_reconfigure
